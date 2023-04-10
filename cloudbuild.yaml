@@ -4,12 +4,12 @@ steps:
       [
         "build",
         "-t",
-        "gcr.io/for-poc-325210/gcp-automation@sha256::$SHORT_SHA",
+        "gcr.io/for-poc-325210/gcp-automation@sha256:257861cfc1815d93b08f5b9070d7196daf9e16f88594db46df64df1b4bb41078",
         ".",
       ]
   - name: "gcr.io/cloud-builders/docker"
     args:
       [
         "push",
-        "gcr.io/for-poc-325210/gcp-automation@sha256::$SHORT_SHA",
+        "gcr.io/for-poc-325210/gcp-automation@sha256:257861cfc1815d93b08f5b9070d7196daf9e16f88594db46df64df1b4bb41078",
       ]
