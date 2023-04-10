@@ -4,8 +4,7 @@ const port = 5001
 const open = require('open');
 
 app.get('/', async (req, res) => {
-  console.log("click")
-  await open('https://sindresorhus.com');
+  res.send("Hello world")
 })
 
 app.listen(port, () => {
