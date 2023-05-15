@@ -4,7 +4,7 @@ const port = 5001
 const open = require('open');
 
 app.get('/', async (req, res) => {
-  res.send("Hello world")
+  res.send("Hello world-vercel")
 })
 
 app.listen(port, () => {
